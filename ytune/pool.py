@@ -566,7 +566,7 @@ class Node:
                 playlist_info=playlist_info,
                 tracks=tracks,
                 playlist_type=PlaylistType(tracks[0].track_type.value),
-                thumbnail=tracks[0].artwork_url,
+                thumbnail=tracks[0].thumbnail,
                 uri=query,
             )
 
